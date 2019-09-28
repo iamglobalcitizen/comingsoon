@@ -1056,4 +1056,10 @@ button,
     right: 0;
     margin: auto;
   }
-  
+ 
+/* Fix breaks <br> on mobile */
+
+  .entry-content p br {
+      display: block;
+  }
+ 
