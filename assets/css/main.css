@@ -81,7 +81,7 @@ html, body {
   height: 100%;
   overflow-x: hidden;
   width: 100%; }
-  @media screen and (max-height: 900px) {
+  @media screen and (max-height: 640px) {
     html, body {
       height: auto;
       min-height: 100%; } }
@@ -833,14 +833,14 @@ button,
         line-height: inherit;
         margin-top: 0;
         position: absolute; } }
-
+        
 /* Footer */
 #footer {
   -moz-transition: opacity 0.5s ease-in-out;
   -webkit-transition: opacity 0.5s ease-in-out;
   -ms-transition: opacity 0.5s ease-in-out;
   transition: opacity 0.5s ease-in-out;
-  bottom: 2em;
+  bottom: 4em;
   color: rgba(255, 255, 255, 0.5);
   left: 4em;
   opacity: 0.5;
