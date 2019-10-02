@@ -273,7 +273,7 @@ em, i {
 
 p {
   margin: 0 0 2em 0; 
-  text-align: center; }
+/* text-align: center; */}
 
 h1, h2, h3, h4, h5, h6 {
   color: #fff;
