@@ -1,0 +1,13 @@
+User-agent: *
+Disallow: /README.txt/ 
+Disallow: /assets/ 
+Disallow: /LICENSE.txt/
+Noindex: /README.txt/ 
+Noindex: /LICENSE.txt/
+
+User-agent: Googlebot-Image
+Disallow: /images/bg01.jpg
+Disallow: /images/bg02.jpg
+Disallow: /images/bg03.jpg
+
+Sitemap: https://www.iamglobalcitizen.com.au/sitemap.xml
