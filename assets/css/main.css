@@ -459,7 +459,8 @@ form {
     transform: scale(1.05);
     height: 2.75em;
     line-height: 2.75em;
-    opacity: 0; }
+    opacity: 0; 
+    margin: 0 0 0 1em; }
     form .message:before {
       -moz-osx-font-smoothing: grayscale;
       -webkit-font-smoothing: antialiased;
@@ -470,23 +471,29 @@ form {
       line-height: 1;
       text-transform: none !important;
       font-family: 'Font Awesome 5 Free';
-      font-weight: 900; }
+      font-weight: 900; 
+      margin: 0 0 0 1em; }
     form .message:before {
-      margin-right: 0em; }
+      margin-right: 0em; 
+      margin: 0 0 0 1em; }
     form .message.visible {
       -moz-transform: scale(1);
       -webkit-transform: scale(1);
       -ms-transform: scale(1);
       transform: scale(1);
-      opacity: 1; }
+      opacity: 1; 
+      margin: 0 0 0 1em; }
     form .message.success {
-      color: #1cb495; }
+      color: #1cb495; 
+      margin: 0 0 0 1em; }
       form .message.success:before {
-        content: '\f00c'; }
+        content: '\f00c'; 
+        margin: 0 1em 1em 1em; }
     form .message.failure {
       color: #ff2361; }
       form .message.failure:before {
-        content: '\f119'; }
+        content: '\f119'; 
+        margin: 0 1em 1em 1em; }
 
 label {
   color: #fff;
