@@ -28,7 +28,10 @@
 				<script src="main.js"></script>
 
 				<!-- Signup Form -->
-				<form id="signup-form" name="email-capture" method="POST" data-netlify="true">
+				<form name="email-capture" netlify-honeypot="bot-field" method="POST" data-netlify="true" id="signup-form">
+					<p style="display:none;">
+						<label>Don’t fill this out: <input name="bot-field"></label>
+					</p>
 					<p>
 						<input type="email" name="email" id="email" placeholder="Email Address" />
 					</p>
