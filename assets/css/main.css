@@ -746,6 +746,7 @@ button,
   height: 4em;
   line-height: 2.75em;
   padding: 0 1.125em;
+  margin: 0 0 0 1em;
   text-align: center;
   text-decoration: none;
   white-space: nowrap; }
@@ -820,7 +821,7 @@ button,
   #signup-form input[type="email"] {
     width: 18em; }
   #signup-form > * {
-    margin: 0 0 0 1em; }
+    margin: 0 0 0 0; }
   #signup-form > :first-child {
     margin: 0 0 0 0; }
   @media screen and (max-width: 480px) {
