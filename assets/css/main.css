@@ -1,5 +1,5 @@
 @import url(fontawesome-all.min.css);
-@import url("https://fonts.googleapis.com/css?family=Roboto:400,700");
+@import url(gotham-book.otf);
 /*
 	Eventually by HTML5 UP
 	html5up.net | @ajlkn
@@ -20,7 +20,7 @@ section, summary, time, mark, audio, video {
   padding: 0;
   border: 0;
   font-size: 100%;
-  font: inherit;
+  font-family: "Gotham", sans-serif;
   vertical-align: baseline; }
 
 article, aside, details, figcaption, figure,
@@ -230,7 +230,7 @@ body {
 /* Type */
 body, input, select, textarea {
   color: rgba(255, 255, 255, 0.75);
-  font-family: "Roboto", sans-serif;
+  font-family: "Gotham", sans-serif;
   font-size: 16pt;
   font-weight: 400;
   letter-spacing: -0.01em;
@@ -470,7 +470,7 @@ form {
       text-rendering: auto;
       line-height: 1;
       text-transform: none !important;
-      font-family: 'Font Awesome 5 Free';
+      font-family: "Gotham", sans-serif;
       font-weight: 900; 
       margin: 0 0 0 1em; }
     form .message:before {
@@ -673,7 +673,7 @@ input[type="radio"] {
       text-rendering: auto;
       line-height: 1;
       text-transform: none !important;
-      font-family: 'Font Awesome 5 Free';
+      font-family: "Gotham", sans-serif;
       font-weight: 900; }
     input[type="checkbox"] + label:before,
     input[type="radio"] + label:before {
@@ -748,9 +748,10 @@ button,
   color: #ffffff !important;
   cursor: pointer;
   display: inline-block;
-  font-weight: 600;
-  font-size: 0.51em;
-  height: 4em;
+  font-weight: 200;
+  font-size: 0.7em;
+  font-family: "Gotham", sans-serif;
+  height: 2.9em;
   line-height: 2.75em;
   padding: 0 1.125em;
   margin: 0 0 0 1em;
@@ -826,7 +827,7 @@ button,
   #signup-form input[type="text"],
   #signup-form input[type="password"],
   #signup-form input[type="email"] {
-    width: 18em; }
+    width: 17.1em; }
   #signup-form > * {
     margin: 0 0 0 0; }
   #signup-form > :first-child {
