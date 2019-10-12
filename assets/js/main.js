@@ -162,7 +162,7 @@
 								$message._show('success', 'Thank you!');
 								//$message._show('failure', 'Something went wrong. Please try again.');
 
-						}, 750);
+						}, 750);                             
 
 				});
 
@@ -187,3 +187,4 @@ document.getElementById("countdown").innerHTML = days + " days &nbsp; | &nbsp; "
         document.getElementById("countdown").innerHTML = "Visit https://www.iamglobalcitizen.com.au"; 
     } 
 }, 1000); 
+
