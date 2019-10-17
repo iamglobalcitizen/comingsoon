@@ -240,7 +240,7 @@ body, input, select, textarea {
       font-size: 12pt; } }
   @media screen and (max-width: 1280px) {
     body, input, select, textarea {
-      font-size: 11pt; } }
+      font-size: 12pt; } }
   @media screen and (max-width: 980px) {
     body, input, select, textarea {
       font-size: 12pt; } }
@@ -795,6 +795,66 @@ button,
       padding: 0em 1em 0em 1em;
       margin: 0 0 1em 0;
       height: 3.5em; } }
+
+  @media screen and (min-width:481px) {
+    button[type="submit"],
+    input[type="submit"],
+    input[type="reset"],
+    input[type="button"],
+    button,
+    .button {
+      height: 4em;
+      line-height: 0em;
+      padding: 0.5em 1em 0.5em 1em;
+      margin: 0 0 0 1em; 
+      font-weight: 200;
+      font-size: 0.7em;
+      font-family: "Gotham", sans-serif;} }
+
+  @media screen and (min-width:736px) {
+    button[type="submit"],
+    input[type="submit"],
+    input[type="reset"],
+    input[type="button"],
+    button,
+    .button {
+      height: 2.9em;
+      line-height: 0em;
+      padding: 0.5em 1em 0.5em 1em;
+      margin: 0 0 0 1em; 
+      font-weight: 200;
+      font-size: 0.7em;
+      font-family: "Gotham", sans-serif;} }
+
+  @media screen and (min-width:1280px) {
+    button[type="submit"],
+    input[type="submit"],
+    input[type="reset"],
+    input[type="button"],
+    button,
+    .button {
+      height: 2.9em;
+      line-height: 0em;
+      padding: 0.5em 1em 0.5em 1em;
+      margin: 0 0 0 1em; 
+      font-weight: 200;
+      font-size: 0.7em;
+      font-family: "Gotham", sans-serif;} }
+
+  @media screen and (min-width:1680px) {
+    button[type="submit"],
+    input[type="submit"],
+    input[type="reset"],
+    input[type="button"],
+    button,
+    .button {
+      height: 2.9em;
+      line-height: 0em;
+      padding: 0.5em 1em 0.5em 1em;
+      margin: 0 0 0 1em; 
+      font-weight: 200;
+      font-size: 0.7em;
+      font-family: "Gotham", sans-serif;} }
 
 /* Header */
 #header h1 {
