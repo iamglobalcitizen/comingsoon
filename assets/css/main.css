@@ -751,9 +751,9 @@ button,
   font-weight: 200;
   font-size: 0.7em;
   font-family: "Gotham", sans-serif;
-  height: 2.9em;
-  line-height: 2.75em;
-  padding: 0 1.125em;
+  height: 4em;
+  line-height: 0em;
+  padding: 0.5em 1em 0.5em 1em;
   margin: 0 0 0 1em;
   text-align: center;
   text-decoration: none;
@@ -792,7 +792,8 @@ button,
     input[type="button"],
     button,
     .button {
-      padding: 0; } }
+      padding: 0.5em 1em 0.5em 1em;
+      margin: 0 0 1em 0; } }
 
 /* Header */
 #header h1 {
