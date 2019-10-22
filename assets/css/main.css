@@ -328,13 +328,17 @@ code {
   background: rgba(255, 255, 255, 0.125);
   border-radius: 6px;
   border: solid 2px rgba(255, 255, 255, 0.35);
+<<<<<<< HEAD
+  font-family: "Gotham", sans-serif;
+=======
+>>>>>>> e10da3ec0bc6ed8215389d93f53b23cc26f48ca3
   font-size: 0.9em;
   margin: 0 0;
   padding: 0.25em 0.65em; }
 
 pre {
   -webkit-overflow-scrolling: touch;
-  font-family: "Courier New", monospace;
+  font-family: "Gotham", sans-serif;
   font-size: 0.9em;
   margin: 0 0 2em 0; }
   pre code {
