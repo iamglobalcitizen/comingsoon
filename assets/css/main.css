@@ -988,8 +988,7 @@ button,
   svg#logo1 { 
     /* percentage of viewport - height will autocalculate */
     width: 85vw;
-    max-height: 150px;
-    max-width: 350px;
+    max-width: 410px;
   }
 
   
