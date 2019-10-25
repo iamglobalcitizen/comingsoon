@@ -99,7 +99,7 @@ body {
   -webkit-justify-content: center;
   -ms-justify-content: center;
   justify-content: center;
-  background-color: #000;
+  background-color: rgba(0, 0, 0, 0.93);
   padding: 6em 4em 4em 4em; }
   body.is-preload *, body.is-preload *:before, body.is-preload *:after {
     -moz-animation: none !important;
@@ -328,10 +328,7 @@ code {
   background: rgba(255, 255, 255, 0.125);
   border-radius: 6px;
   border: solid 2px rgba(255, 255, 255, 0.35);
-<<<<<<< HEAD
   font-family: "Gotham", sans-serif;
-=======
->>>>>>> e10da3ec0bc6ed8215389d93f53b23cc26f48ca3
   font-size: 0.9em;
   margin: 0 0;
   padding: 0.25em 0.65em; }
