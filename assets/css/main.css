@@ -991,6 +991,8 @@ button,
     padding-left: 0.25rem;
   }
 
+/* HEADER LOGO */
+
   svg#logo { 
     /* percentage of viewport - height will autocalculate */
     width: 85vw;
@@ -998,4 +1000,9 @@ button,
     max-height: 108.12px;
   }
 
+/* FAVICON */
+
+matcher = window.matchMedia('(prefers-color-scheme: dark)');
+matcher.addListener(onUpdate);
+onUpdate();
   

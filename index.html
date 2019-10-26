@@ -7,9 +7,22 @@
 		<meta name="description" content="iamglobalcitizen is a micro-credential EdTech platform that enables students to learn the 21C skills required for 'the future of work'." />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
-		<link rel="shortcut icon" href="favicon-16x16.png" sizes="16x16" type="image/png" alt="iamglobalcitizen">
-		<link rel="shortcut icon" href="favicon-32x32.png" sizes="32x32" type="image/png" alt="iamglobalcitizen">
+		<link rel="icon" href="favicon-16x16.png" data-href-light="favicon-16x16-dark.png" data-href-dark="favicon-16x16.png" sizes="16x16" alt="iamglobalcitizen">
 		<link rel="stylesheet" href="assets/css/fontawesome-all.min.css" type="text/css" /> 
+		<script> 
+			if (window.location.protocol === 'http:') {
+			  window.location.protocol = 'https:';
+			}
+			// If `prefers-color-scheme` is not supported, fall back to light mode.
+			// In this case, light.css will be downloaded with `highest` priority.
+			if (!window.matchMedia('(prefers-color-scheme)').matches) {
+			  document.documentElement.style.display = 'none';
+			  document.head.insertAdjacentHTML(
+				  'beforeend',
+				  '<link rel="stylesheet" href="/light.css" onload="document.documentElement.style.display = ``">'
+			  );
+			}
+		</script>
 	</head>
 
 	<body class="is-preload">

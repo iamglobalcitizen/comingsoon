@@ -17,4 +17,3 @@ document.getElementById("countdown").innerHTML = days + " days &nbsp;| &nbsp;"
 }, 1000); 
 
 
-
