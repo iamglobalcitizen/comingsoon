@@ -498,7 +498,7 @@ form {
 label {
   color: #fff;
   display: block;
-  font-size: 0.9em;
+  font-size: 1.2em;
   font-weight: 700;
   margin: 0 0 1em 0; }
 
@@ -856,27 +856,32 @@ button,
       font-size: 0.7em;
       font-family: "Gotham", sans-serif;} }
 
-/* Header */
+/* Header */ 
+
+/* CHANGE FONT SIZE */
+
 #header h1 {
   font-size: 3.25em;
   margin: 0 0 0.55em 0; }
 
 #header p {
-  font-size: 1.35em;
+  font-size: 1.6em;
   line-height: 1.65em; }
 
 #header a {
   color: inherit; }
 
-@media screen and (max-width: 736px) {
+@media screen and (max-width: 540px) {
   #header h1 {
     font-size: 2em; }
   #header p {
-    font-size: 1em; } }
+    font-size: 1.2em; } }
 
 @media screen and (max-width: 480px) {
   #header {
-    margin: 0 0 1em 0; } }
+    margin: 0 0 1em 0; }
+  #header p {
+    font-size: 1em; } }
 
 /* Signup Form */
 #signup-form {
@@ -889,7 +894,9 @@ button,
   #signup-form input[type="text"],
   #signup-form input[type="password"],
   #signup-form input[type="email"] {
-    width: 17.1em; }
+    width: 17.1em;
+    /* CHANGE BUTTON FONT SIZE */
+    font-size: 0.6em; }
   #signup-form > * {
     margin: 0 0 0 0; }
   #signup-form > :first-child {
@@ -908,7 +915,7 @@ button,
         margin: 0 0 0 0; }
       #signup-form .message {
         bottom: -1.5em;
-        font-size: 0.9em;
+        font-size: 1.2em;
         height: 1em;
         left: 0;
         line-height: inherit;
