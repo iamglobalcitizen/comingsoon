@@ -1,9 +1,3 @@
-/*
-	Eventually by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-*/
-
 // COUNTDOWN
 
 var deadline = new Date("Feb 12, 2020 00:00:01").getTime(); 
