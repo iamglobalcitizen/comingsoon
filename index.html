@@ -50,7 +50,7 @@
 				<!-- Countdown -->
 				<p id="countdown"></p> 
 				<script>
-					var deadline = new Date("Oct 1, 2021 00:00:01").getTime(); 
+					var deadline = new Date("Feb 1, 2022 00:00:01").getTime(); 
 					var x = setInterval(function() { 
 					var now = new Date().getTime(); 
 					var t = deadline - now; 
@@ -62,7 +62,7 @@
 					+ hours + " hrs &nbsp;| &nbsp;" + minutes + " mins &nbsp;| &nbsp;" + seconds + " s"; 
 						if (t < 0) { 
 							clearInterval(x); 
-							document.getElementById("countdown").innerHTML = "Visit https://www.iamglobalcitizen.com.au"; 
+							document.getElementById("countdown").innerHTML = ""; 
 						} 
 					}, 1000); 
 				</script>
